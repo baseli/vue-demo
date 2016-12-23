@@ -1,0 +1,14 @@
+#app {
+    width: 100vw;
+    height: 100vh;
+}
+.left_bar {
+    width: 30vw;
+    height: 100vh;
+    float: left;
+}
+.right_bar {
+    width: 70vw;
+    height: 100vh;
+    float: left;
+}
