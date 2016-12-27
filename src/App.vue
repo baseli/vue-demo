@@ -2,7 +2,7 @@
   <div id="app">
     <div class="left_bar">
         <div class="logo">
-            <a href="javascript:;"></a>
+            <a href="/"></a>
         </div>
 
         <div class="user">
@@ -37,7 +37,7 @@ export default {
     width: 20vw;
     height: 100vh;
     float: left;
-    background: #eff2f7;
+    background: #324057;
     overflow-y: auto;
 }
 .right_bar {
