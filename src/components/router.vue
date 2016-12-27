@@ -2,8 +2,8 @@
     <el-menu default-active="1" class="el-menu-vertical-demo" theme="dark" :unique-opened=true :router=true>
       <el-submenu index="1">
         <template slot="title"><i class="el-icon-message"></i>入职数据</template>
-        <router-link to="/foo" tag="li" class="el-menu-item" active-class="is-active">公司信息</router-link>
-        <router-link to="/hello" tag="li" class="el-menu-item" active-class="is-active">员工信息</router-link>
+        <router-link to="/foo/test" tag="li" class="el-menu-item" active-class="is-active">公司信息</router-link>
+        <router-link to="/bar" tag="li" class="el-menu-item" active-class="is-active">员工信息</router-link>
       </el-submenu>
       <el-submenu index="2">
         <template slot="title"><i class="el-icon-message"></i>考勤数据</template>
