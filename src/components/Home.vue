@@ -42,4 +42,7 @@ export default {
 </script>
 
 <style lang="css">
+.el-card__header {
+    padding: 10px;
+}
 </style>
