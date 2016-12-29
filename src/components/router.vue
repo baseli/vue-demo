@@ -1,7 +1,7 @@
 <template lang="html">
     <el-menu default-active="1-1" class="el-menu-vertical-demo" theme="dark" :unique-opened=true :router=true>
       <el-submenu index="1">
-        <template slot="title"><i class="el-icon-message"></i>入职数据 {{ uri }}</template>
+        <template slot="title"><i class="el-icon-message"></i>入职数据</template>
         <router-link index="1-1" to="/foo/test" tag="li" class="el-menu-item" active-class="is-active">公司信息</router-link>
         <router-link to="/bar" tag="li" class="el-menu-item" active-class="is-active">员工信息</router-link>
       </el-submenu>
